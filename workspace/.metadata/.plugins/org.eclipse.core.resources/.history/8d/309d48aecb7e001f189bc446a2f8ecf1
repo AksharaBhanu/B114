@@ -1,0 +1,18 @@
+package day03;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+
+		int a;//declaration--creating a variable
+		
+		a=10;//initialization-->assigning a value
+		
+		System.out.println(a);
+		
+		System.out.println("a");
+		
+
+	}
+
+}

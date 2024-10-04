@@ -1,0 +1,41 @@
+please update your email id and photo in Akshara mobile app
+
+operators
+symbol used to preform operation
+
+operand 
+input required to perform operation
+
+1. Arithmetic operators
+	+ - * / % 
+	i/p: number  o/p: number
+
+2. assignment operator
+	= assign
+	+= adds & assign
+	-= subtract & assign
+	*= multiply & assign
+	/= Divide & assign
+	%= Modulus & assign
+
+3. increment & decrement operator
+	a++  --> post increment
+	++a  --> pre increment
+	a--  --> post decrement
+	--a  --> pre decrement
+
+https://www.javatpoint.com/java-operator-precedence
+
+4. Relational operators (Comparison)
+	==	equal to
+	!=	not equal to
+	>	greater than
+	<	less than
+	>=	greater than or equal to
+	<=	less than or equal to
+
+
+
+
+
+	

@@ -1,0 +1,12 @@
+package day05;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		byte a=10;
+		short b=a;
+		int c=a;
+
+	}
+
+}

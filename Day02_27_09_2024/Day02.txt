@@ -1,0 +1,131 @@
+To watch  B114 Java videos on mobile app 
+
+Link to download the mobile app
+https://aksharatraining.com/mobile-app/
+
+Please follow the steps
+
+A. Open Akshara Mobile App
+B. Click 'Batches' at the bottom of the screen
+C. Click +
+D. Enter the batch code as B114 and click OK
+
+After your batch request is approved follow the below Steps
+
+1. Open Akshara Mobile App
+2. Click Batches at the bottom of the screen
+3. Click AITM-JAMR-SEP26-B114
+4. Click Videos tab
+----------------------------------------------------------------------------------------------------------
+installed software: JDK Java Development Kit 23
+setupbox 
+free
+open source
+JSE
+JEE
+JME
+-------------------------------------------------------
+what is a java?
+java is a High level (English like) language
+
+syntax
+statement
+keywords
+
+computer understands binary language--> 0 000   1111
+translator --> compiler and interpreter 
+java--> compiled 
+javac--> java compiler --> C:\Program Files\Java\jdk-23\bin\javac.exe
+
+My 1st java code
+1. open the notepad (any text editor)
+2. write the code
+3. save it as A.java
+4. open the cmd prompt
+5. execute the cmd--> javac A.java
+6. it will generate A.class
+
+Note: java is case sensitive 
+class A
+{
+
+}
+
+code is present in A.java--> source code
+compiled it --> A.class--> byte code
+7. to execute the byte code use --> java A
+
+Error: Main method not found in class A
+
+
+While compiling we specify file name 
+while executing we specify class name
+hence to avoid confusion , it is better to give file name same as class name
+
+
+class Demo1
+{
+
+}
+--> Demo1.java
+compile the code-->javac Demo1.java---> Demo1.class
+run the code--> java Demo1
+
+in java main method is the starting point of execution
+
+
+Error: Main method not found in class A, please define the main method as:
+   public static void main(String[] args)
+
+to print any information we use 
+System.out.print(info);
+System.out.println(info);
+
+; indicates end of statement
+
+in java anything present inside "" is called as String 
+
+print--> print 
+
+1. write the code
+2. compile it
+3. execute it
+4. debug
+5. review
+6. SCM (GitHub)
+7. code coverage..
+8. unit testing
+
+IDE - 1 tool for many tasks
+Eclipse 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+package day05;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		byte a;
+		a=0;
+		System.out.println(a);
+
+	}
+
+}

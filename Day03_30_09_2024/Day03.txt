@@ -1,0 +1,67 @@
+Bhanu 9481787493
+Same zoom link--> it req login
+https://youtu.be/7QrUMMlGTXQ
+please use the meeting id as : 89477765931 
+passcode: live
+
+
+IDE--> Integrated Development Envi
+Eclipse
+
+1. open eclipse
+2. create a folder 'workspace' in required location
+3. File-->switch to--> other
+4. click browse, navigate to workspace folder, select it and click launch
+5. close welcome screen
+6. File --> new --> Java project
+7. Specify the project name: B114
+8. uncheck 'create module-info.java' check box
+9. click finish
+10. right click on src--> new--> package
+11. specify the name example: day03 and click finish
+12. right click on the package 'day03'-> new ->class
+13. specify class name as 'Demo1' click finish
+14. inside the class--> type main and press ctrl+space and press enter
+15. inside the main method--> type syso  and press ctrl+space
+
+
+Note:
+press ctrl and + to increase font size
+press  ctrl and F11 to run the code
+//--> comment
+
+Folders
+workspace
+	project
+		src
+		  package
+			Demo1.java
+		bin
+		  package
+			Demo1.class
+
+
+window (menu)--> show view --> package explorer
+window (menu)--> show view --> console
+
+variable: it is a container or space holder , which is used to store some data/value/info
+before using any variable we must declare and initialize it
+
+declare--> datatype variablename;
+initialize--> variablename=value;
+ex: 
+int i;
+i=10;
+
+
+we can declare and initialize in same statement--> int i=10;
+
+we can declare and initialize multiple variables in same statement--> int a=10,b=20;
+
+joining 2 information is called as concatenation it can be done using + 
+to join 2 info we need 1 +
+to join 10 info we need 9 +
+to join n info we need n-1 +
+
+
+

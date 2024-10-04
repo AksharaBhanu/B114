@@ -1,0 +1,24 @@
+package day04;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		//no keywords
+		
+		int myclass;
+//		int class;
+		
+		//can contain only a-z A-Z 0-9 _ $
+		
+		int aA_$;
+		int abc;
+		int ABC;
+		
+		
+		
+//		int 123;
+//		int _;
+
+	}
+
+}

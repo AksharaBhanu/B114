@@ -1,0 +1,21 @@
+package day03;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+
+		System.out.println("Bhanu Prakash");
+
+		
+		System.out.println("Bhanu Prakash");
+		
+		
+		
+		System.out.println("Bhanu Prakash");
+		
+		
+		
+		System.out.println("Bhanu Prakash");
+	}
+
+}

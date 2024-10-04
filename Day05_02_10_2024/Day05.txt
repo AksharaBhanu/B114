@@ -1,0 +1,65 @@
+variable--> container to store data, it can changed-->  int i=10;
+constant-->container to store data, it can't changed--> final int j=20;
+identifier--> any user defined name such as variable names, method names, class names, package names...
+RULE
+1. No keywords 
+2. contain only a-z A-Z 0-9 _ $
+3. should not start with a digit
+4. CS
+5. no max limit 
+
+Data Type: Type of information stored
+
+1 byte--> 8 bits
+
+type casting 
+converting from one data type to another data type is called as type casting
+
+converting from smaller data type to bigger data type is called 'widening'
+byte a=10;
+short b=(short)a;
+
+in the above code we are converting from byte to short --> widening
+
+widening is automatic
+short b=a;
+
+converting from bigger data type to smaller data type is called 'narrowing'
+narrowing is not automatic
+short x=10;
+byte y=(byte)x;
+
+Boolean can not be converted to any other data type
+any other DT can not be converted to Boolean type
+
+Boolean can not be used in type casting
+
+widening 				narrowing
+smaller-> bigger			bigger--> smaller
+automatic				explicit
+no loss of data				there may be loss of data
+
+byte a=10;				short a=10;
+short b=a;				byte b=(byte)a;
+
+operator
+symbol which is used to perform some operation
+
+operands
+input required to perform the operation
+
+example
+
+System.out.println(a+b);
+
+a and b are called as operands
++ is called as operator
+the action 'addition'---> operation
+
+types of operators
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+Divya 7204842332 
+Bhanu 9481787493 -call -WhatsApp
+ping me in WhatsApp -> Hi i am 'Ravi' from B114
+
+class timing: 6AM to 7.30AM 
+Monday to Friday
+every day same zoom link same password
+
+https://us02web.zoom.us/j/89477765931 (Passcode: live)
+
+videos in Akshara mobile 
+
+batch code: b114
+
+-------------------------------------------------------------
+assignments
+home work
+		share it to info@aksharatraining.com
+		batch code phone number
+test
+mock interview
+CV 
+
+https://calendly.com/aksharatraining/30min
+
+one phone number--WhatsApp -Akshara mobile app
+one email id--> send email Akshara mobile app zoom
+Please use org code as ‘CWDPT’
+--------------------------------------------------------------------------
+make hand written notes 
+
+java full stack--
+core java --> Selenium
+
+
+ download java software (JDK-Java Development Kit) latest version is JDK23
+ https://download.oracle.com/java/23/latest/jdk-23_windows-x64_bin.msi
+ file name:jdk-23_windows-x64_bin.msi
+	How to install
+	1. double click on msi file
+	2. click next
+	3. click next
+	4. click yes (if we get security popup)
+	5. click close
+
+default installation location:C:\Program Files\Java
+
+We use zoom--> live class
+we use Akshara Mobile--> share videos
+we use github--> share notes and code
+we use slack--> for sharing during live session
+
+How to check java is installed or not?
+in cmd---> 
+java -version
+where java(win)      which java (mac)
+javac 
+
+
+
+
+
+
+
+
+

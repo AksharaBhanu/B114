@@ -1,0 +1,14 @@
+package day05;
+
+public class Demo2 {
+//byte short int long
+//float double
+//boolean char
+	public static void main(String[] args) {
+		byte a=20;
+		short b=(short)a;
+		
+
+	}
+
+}
