@@ -1,0 +1,10 @@
+package day07;
+
+public class Demo6 {
+//how to accept input from user --> using scanner class
+	public static void main(String[] args) {
+		
+
+	}
+
+}

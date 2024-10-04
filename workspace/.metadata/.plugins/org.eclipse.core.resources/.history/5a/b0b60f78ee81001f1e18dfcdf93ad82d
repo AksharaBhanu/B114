@@ -1,0 +1,14 @@
+package day07;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+		int a=10,b=2;
+		
+		String result=a>b?"hi":"bye";
+		
+		System.out.println(result);
+
+	}
+
+}

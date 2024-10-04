@@ -1,0 +1,10 @@
+package day07;
+
+public class Demo8 {
+//accept 2 numbers from the user and display its sum
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

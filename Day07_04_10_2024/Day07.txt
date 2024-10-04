@@ -1,0 +1,139 @@
+1. Arithmetic operators
+	+ - * / % 
+	i/p: number  o/p: number
+
+2. assignment operator
+	= assign
+	+= adds & assign
+	-= subtract & assign
+	*= multiply & assign
+	/= Divide & assign
+	%= Modulus & assign
+
+3. increment & decrement operator
+	a++  --> post increment
+	++a  --> pre increment
+	a--  --> post decrement
+	--a  --> pre decrement
+
+https://www.javatpoint.com/java-operator-precedence
+
+4. Relational operators (Comparison)
+	==	equal to
+	!=	not equal to
+	>	greater than
+	<	less than
+	>=	greater than or equal to
+	<=	less than or equal to
+
+	i/p: number  o/p: boolean
+
+
+5. logical operator
+	&&    AND
+	||    OR
+	!    NOT
+
+i/p: boolean  o/p: boolean
+
+TRUTH TABLE
+
+input1	input2	AND	
+true	true	true	
+true	false	false
+false	true	false	
+false	false	false	
+
+input1	input2	OR
+true	true	true
+true	false	true
+false	true	true
+false	false	false
+
+
+input1 	NOT
+true	false
+false	true
+
+6. type cast operator (type)
+converting from one data type to another 
+auto widening
+explicit narrowing
+int i=10;
+byte b=(byte)i;
+
+7. bitwise operators
+   >>   right shift
+   <<	left shift
+   >>> unsigned right shift
+   &	bitwise and
+   |	bitwise or
+   ^    bitwise XOR
+
+
+8. conditional operator
+   
+   condition? exp1 : exp2;
+
+
+condition --> any expression which returns Boolean value
+
+   it will check the condition
+	if it is true it return exp1
+	if it is false it return exp2
+
+
+9.instaceof operator
+  we use it to check whether the object is an instance of specified class
+
+10. access operator . DOT
+     used to access member of the class/object
+
+
+operators are also grouped based on number of operands (inputs)
+
+Unary operator
+++
+--
++
+-
+!
+
+Binary operator
+
+	Arithmetic operators
+	assignment operator
+	Relational operators 
+	&& ||
+	
+ternary operator
+	
+ 	condition? exp1 : exp2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
