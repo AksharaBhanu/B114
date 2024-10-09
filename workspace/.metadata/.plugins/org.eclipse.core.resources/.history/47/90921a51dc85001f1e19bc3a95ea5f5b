@@ -1,0 +1,14 @@
+package day08;
+
+public class Demo5 {
+//write a java code to compare 2 variable 
+//input a & b
+//	output --> a is >     b is >   both are equal
+ 	public static void main(String[] args) {
+	int a=10,b=20;
+	
+	
+		
+	}
+
+}

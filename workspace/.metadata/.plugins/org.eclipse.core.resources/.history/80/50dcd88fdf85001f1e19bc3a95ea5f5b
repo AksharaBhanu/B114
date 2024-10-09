@@ -1,0 +1,20 @@
+package day08;
+
+import java.util.Scanner;
+
+public class Demo7 {
+//ask the user to press a number and print the language 
+/*
+ * 1. English
+ * 2. Hindi
+ * 3. kannada
+ * 4. invalid input
+ */
+	public static void main(String[] args) {
+//		Scanner sc=new Scanner(System.in);
+		System.out.println("Plz select the language:1.English 2.Hindi 3.kannada ");
+//		int a=sc.nextInt();
+
+	}
+
+}

@@ -1,0 +1,81 @@
+by default code will be  executed from top to bottom
+to execute the code based on req--> skip repeat.. we use control statements
+3 types
+
+1. condition statements--> decide whether the block of code should be executed or skipped
+2. looping 
+3. CT (jumping )
+
+condition--> expression which returns Boolean value
+
+if(condition)
+{
+	//if block
+}
+----------------------------------------
+if(condition)
+{
+	//if block
+}
+else
+{
+	//else block
+}
+----------------------------------------
+
+if(condition1)
+{
+	//if block
+}
+else if(condition2)
+{
+	//else if block
+}
+---------------------------------
+if(condition1)
+{
+	//if block
+}
+else if(condition2)
+{
+	//else if block
+}
+else if(condition3)
+{
+	//else if block
+}
+--------------------------------------
+if(condition1)
+{
+	//if block
+}
+else if(condition2)
+{
+	//else if block
+}
+else
+{
+	//else block
+}
+---------------------------------
+if(condition1)
+{
+	//if block
+}
+else if(condition2)
+{
+	//else if block
+}
+else if(condition3)
+{
+	//else if block
+}
+else
+{
+	//else block
+}
+------------------------------------
+Nested if condition
+
+
+
