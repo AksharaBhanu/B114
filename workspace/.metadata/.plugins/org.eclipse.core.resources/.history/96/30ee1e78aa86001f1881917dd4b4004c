@@ -1,0 +1,19 @@
+package day09;
+
+public class Demo11 {
+
+	public static void main(String[] args) {
+		double i=18.3;
+		
+		if(i==1)
+		{
+			System.out.println("It is One");
+		}
+		else
+		{
+			System.out.println("it is not One");
+		}
+
+	}
+
+}

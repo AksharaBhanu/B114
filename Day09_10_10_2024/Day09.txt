@@ -1,0 +1,42 @@
+control statements
+1. condition
+2. loop
+3. jumping statements---> return,break
+
+
+condition--> execute the code or to skip 
+1. if
+	if
+	if-else
+	if-else if
+	if-else if-else
+	if-else if-else if
+	if-else if-else if-else
+	nested if
+2. switch-faster then if
+	we can write only one default section in any place
+	no need to write break for the last section
+
+	if we do not specify break then it will go to next statement -->	fall through switch 
+
+	switch supports only == 
+	switch supports only byte short char int String Enum
+	switch do not supports float double boolean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
