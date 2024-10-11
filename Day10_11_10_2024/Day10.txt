@@ -1,0 +1,13 @@
+looping statements
+1. for loop--> a) for i loop   b) for each loop
+2. while loop	
+
+for loop header has 3 sections
+1. initialization
+2. condition
+3. update
+all above 3 sections are optional
+
+if we do not specify condition then compiler writes true
+
+break can be used to exit from for loop
