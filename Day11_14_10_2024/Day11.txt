@@ -1,0 +1,6 @@
+Nested for loop
+for loop inside the for loop
+
+if outer for loop iteration is n times
+if inner for loop iteration is m times
+then the code will execute n x m times
