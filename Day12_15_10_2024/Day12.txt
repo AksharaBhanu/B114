@@ -1,0 +1,23 @@
+while(condition)
+{
+
+
+}
+
+
+if we know the exact number of iteration we use for loop
+if we dont know the exact number of iteration we use while loop
+
+d0
+{
+
+
+}while(condition);
+
+exit controlled loop
+
+
+for-while--> entry controlled loop
+
+
+to run the code at least once use do-while loop
