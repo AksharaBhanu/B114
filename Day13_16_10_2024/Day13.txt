@@ -1,0 +1,7 @@
+We can use break and continue in while loop
+a variable can hold only one value at a time
+to store multiple value under a same name we use array
+array --> group of elements
+each element will have its own number--> index
+index starts from 0
+if we have n elements then index will be 0 to n-1
