@@ -1,0 +1,26 @@
+Array-->group of elements
+int[] a={10,20,30};
+
+int[] a=new int[3]; --> 0 1 2
+a.length;
+
+diff ways of declaring array in java
+		int[] a;
+		int []b;
+		int c[];
+
+diff b/w for i & for each
+
+for i			for each
+slow			fast
+read array		read array
+write array		X
+read reverse		X
+skip element		X
+general 		X (only with array/collections)
+3sections		2sections
+;			:
+
+
+a.length --> number of rows
+a[row].length--> number of columns in given row
