@@ -1,0 +1,8 @@
+Array is a non-primitive data type(object) in java
+if array type is
+byte short int long then default value is 0
+float double  then default value is 0.0
+Boolean then default value is false
+char then default value is ' '
+if it is any other data type (non-primitive) --> then default value is null
+jagged array--each row having diff number of columns
