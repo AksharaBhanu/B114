@@ -1,0 +1,53 @@
+method--> reusable block with a name
+
+1. we can create a method before or after main method
+2. method must be always inside a class
+3. outside the class we can specify only package and import statements
+4. we cant write method inside another method (nested method-not allowed)
+5. we can call a method inside another method
+6. unless we call the method, it will not be executed
+7. we can call a method any number of times
+8. method contains --> method definition 
+	1. header--> declaration
+	2. body---> implementation
+9. in java there are 2 types method	
+	1. static method---> we call it using class name	
+	2. non-static method--> we call it using object name
+10. 'return' is one of the jumping statements it will transfer the control back to the caller
+11. writing return is not mandatory, if we dont write it compiler will add it
+12. do not write any executable code after return statement
+13. if we try to write any code below return statement we get 'unreachable code' error
+14. method can accept input -> using method argument
+15. method argument is specified in method header after the method name, within ()
+16. a method may or may not take any argument, multiple arguments are defined using ,
+17. for every argument we must specify its data type
+18. while calling the method we must send the data---> parameter
+19. parameter can be a variable or a value
+20. but argument must be always a variable
+21. while calling the method number of parameter, data type and order should match with method arguments
+22. there is no optional argument (all arguments are mandatory)
+23. method signature--> number of arg, data type arg and order of the arg
+24. in method declaration(header) before method name we should specify the return type
+24. if the return type is void--> it indicates that method will not return any value
+24. if the return type is void--> then at the end we should write 'return;' --> empty return statement
+25. writing empty return statement is not mandatory, if we dont write it, compiler will write it for us
+25. if return type is other than void then compiler will not write return statement, we must write it
+26. we cant write multiple return statement with in the same block
+27. to return multiple values from a method , use array/collections
+
+what is meaning of void in main method?
+it indicates the return type of main method, it means main method will not return any value to the caller ---> JVM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
