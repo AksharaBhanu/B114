@@ -1,0 +1,2 @@
+we can use array as method argument to accept multiple inputs
+we can use array to return multiple outputs
