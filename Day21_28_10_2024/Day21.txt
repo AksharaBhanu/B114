@@ -1,0 +1,144 @@
+ellipsis --> ...
+if a method takes ellipsis  as input argument it is called as variable argument -> var args
+while calling the method we can send any number of arguments
+all the given inputs will be automatically converted into array elements and used
+The variable argument type String of the method m2 must be the last argument
+
+in java a method can take
+1. only ellipsis as argument or
+2. one ellipsis as last argument
+
+
+String[] args present in main method is used for cmd line arguments
+
+ex: java Demo4 Apple Mango
+
+here Apple and Mango is stored in args, i.e 
+args[0] is Apple
+args[1] is Mango
+
+in eclipse use Run Configuration to send cmd line arg
+---------------------------------------------------------------------------------------------------------------------
+Object
+
+ex: Car Table Laptop Mouse Keyboard phone book chair
+
+chair
+
+1. material: wood plastic metal
+2. legs:4, 3 , 2
+3. seat
+4. back support 
+5. color: white black .....
+
+use of the chair:
+1. sit
+2. stand
+3. dumping 
+4. hit
+5. transport
+
+
+any obj
+1. char---> variables
+2. functionality ----> methods
+
+in java object--> var & methods
+
+Pen
+1. shape: round 
+2. color: blue black red
+3. Brand: 
+4. cap:
+
+uses:
+1. writing
+2. fighting
+3. book marker
+4. poking 
+5. chit storage
+
+class ---> Blue print or template 
+object: 
+copy of the class 
+instance of the class
+
+
+identifier
+1. No keywords
+2. contains: A-Z a-z 0-9 _ $
+3. should not start with digit
+4. CS
+5. no max limit
+
+
+in java class represents non-primitive data type
+
+in java we have 8 primitive data types
+byte short int long float double char Boolean 
+
+rest all are non-primitive
+array---> int[] a
+class--> String Employee
+
+
+how to create a class in java
+--> 
+use class keyword, specify the class name end with {}
+ex:
+class A
+{
+
+}
+
+How to create an object
+ClassName variableName=new ClassName();
+A a1=new A();
+
+Fully Qualified Class Name: FQCN-- packagename.classname
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
