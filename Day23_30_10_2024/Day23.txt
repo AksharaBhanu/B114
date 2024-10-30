@@ -1,0 +1,20 @@
+Constructor
+1. is a special method available in class
+2. name of the Constructor must be same as class name
+3. Constructor will not have any return type (not even void)
+4. when we create a class without constructor then compiler adds 'default constructor'
+5. default constructor is always no arg Constructor 
+6. constructor created by us is called as User Defined constructor
+7. User Defined constructor can be no arg Constructor OR parameterized constructor
+
+if name of global variable and local variable is same then it always refers to local variable
+
+if name of global variable and local variable is same then using this keyword is mandatory to access global variable
+if name of global variable and local variable is diff then we can access global variable using this keyword and also access it directly
+
+
+this
+1. it is a keyword
+2. it represents current object (stores address of current object)  'this means current object'
+3. used to access global variable when local variable name is also same
+
