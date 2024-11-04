@@ -1,0 +1,87 @@
+in  a class can we create multiple constructor?
+yes, but signature should be diff
+
+signature means--> number of arg , or data type or order
+
+if we create ,multiple constructor with diff signature--> constructor overloading
+
+
+can we call a constructor from another constructor?
+yes using this of --> this();
+
+but
+1. this() must be the 1st statement
+2. recursive constructor calling is not allowed 
+
+
+Note: calling a constructor from another constructor is also called as constructor chaining
+
+
+what is the diff b/w this. and this()
+this. -->access global variable when the local variable name is same  
+this()--> call constructor from another constructor 		
+
+
+by default all variables declared inside class (but outside of any block) 
+1. are called instance variable	or object variable
+2. each object will have their own copy of these instance variable
+3. we can access these instance variable using ref variable or this.
+4. scope of these variable is global (anywhere within the class)
+
+
+if we add the keyword 'static'
+1. are called static variable	or class variable
+2. they are stored inside static pool of the respective class
+3. static var is always a single copy stored inside static pool
+4. every object by default will have access to respective class's static pool
+5. we can access class variable using class name 
+
+
+Note: using object/ref variable we can access both static and non-static variable
+but using class name we can access only static variable
+
+whether variable should be static or non-static
+if we are storing individual or private information use non-static variable--diff copy for each object
+if we are storing public or common information use static variable--> single copy for all the object
+
+
+student details
+name1:Bhanu phno1:9845098450 email1:bhanu@gmail.com subject1:java 	institute1:Akshara 
+name2:Geeta phno2:98449844 email2:geeta@gmail.com subject2:selenium 	institute2:Akshara
+
+only institute should be static all other info should be non-static
+
+
+Bank Details
+AC NO:-->NS
+Name:-->NS
+PAN:-->NS
+Balance:-->NS
+
+Branch--> S
+Bank--> S
+IFSC --> S
+
+Emp Details:
+id---NS
+name--NS
+email id--NS
+
+company name--S
+city---S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

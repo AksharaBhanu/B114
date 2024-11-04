@@ -1,0 +1,43 @@
+swap 2 variables
+swap 2 variables without using 3rd variable
+check if given number is +ve or not
+check if the given number is even or odd
+check if the person is eligible for voting
+check if the person is eligible for marriage
+compare 2 variable and print the largest 
+compare 3 variable and print the largest
+check if the given number is prime or not
+print fibonacci sequence
+print multiplication table
+factorial of a given number--> 5 5*4*3*2*1
+sum of n numbers --> 5 5+4+3+2+1
+print 10 prime numbers 
+print prime numbers up to 100
+print sum of odd numbers between 1 to 100
+check whether given number is present in the array or not?
+print the position of given number in the array?
+print the array in sorted order
+write a code to print odd numbers present in array?
+print even numbers present in array
+write a code to find the smallest array elements?
+write a code to find the biggest array elements?
+write a code to find the sum of the array elements?
+print the number of occurrence of given element in array
+compare 2 array (same or not)
+print the common elements present in the 2 arrays
+print hollow square 
+print a to z
+print A to Z
+print triangle using * 
+print triangle using number
+print triangle using letter
+print the reverse of given number
+print sum of the digits of given number
+
+
+
+
+
+
+
+
