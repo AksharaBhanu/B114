@@ -1,0 +1,66 @@
+constructor overloading--> having multiple constructors with diff signature
+constructor chaining--> calling one constructor from another using this()
+
+static and non-static variables
+
+static variables				non-static variables
+variable is declared using static keyword	variable is declared without using static keyword	
+stored in static pool				stored in object (heap)
+always single copy				multiple copy (depends on number of objects)
+accessed using class name			accessed using ref var or using 'this.'
+public/common/shared information		private/individual information
+ex: Bank Name, IFSC Branch			Account No. Name Account Balance PAN
+
+Note: 
+Static & Non-Static concept is applicable only for global variable
+for local variables there is no concept of Static & Non-Static variable
+
+types of variable
+1. scope: global and local
+2. data type: primitive & non-primitive
+3. change of value: final or non-final variable
+4. copy: static or non-static 
+
+
+when the variable gets default value?
+if the variable is global and non-final then it gets default value
+
+Note:
+if the variable is final --> no default value
+if the variable is local--> no default value
+
+class loading
+1. load the byte code of the class into class area
+2. create memo in static pool
+3. load static variable and methods into SP
+4. execute static block 
+
+when the static block gets executed?
+at the time of class loading
+
+Note:
+we cant execute static block explicitly or multiple times
+(we cant call static block)
+
+we can have multiple static blocks  and they will always executes from top to bottom
+
+
+when the non-static block gets executed?
+before the execution of the constructor
+
+
+if both static block and main method present in same class then when execute the code ,
+static block gets executed 1st and then the main method
+
+
+if both static block and main method present in diff class then when execute the code ,
+main method gets executed 1st and then the static block
+
+
+
+
+
+
+
+
+
