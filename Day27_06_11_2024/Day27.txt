@@ -1,0 +1,96 @@
+static block
+  we create SB using static keyword followed by {}
+  static blocks are executed at the time of class loading
+  it is executed only once
+  other name: SIB
+  we can access only static variable inside SIB but we cant access non-static variable inside SIB
+  we cant use  this keyword inside SIB
+
+non-static block
+  we create NSB without using static keyword just {}
+  non-static blocks are executed before the constructor
+  it is executed each time when we call constructor/create object
+  other name: IIB
+  we can access both static & non-static variable inside IIB
+  We can use this keyword inside IIB
+
+
+default value for variable is assigned only if it is global and non-final
+default value  not applicable for all the local variable and for global final var
+
+inside the class we can only
+1. declare variables
+2. create blocks (SB NSB constructor method)
+inside the class we are not allowed write any other java code 
+
+if the variable is final then it is mandatory to explicitly initialize it (default value  not applicable)
+for global static final variable , we can initialize it in 2 ways
+1. at the time of declaration
+2. inside the static block
+
+static block are majorly used for initializing static final variables hence it is also called as
+Static Initialization Block (SIB)
+
+for global non-static final variable , we can initialize it in 3 ways
+1. at the time of declaration
+2. inside the non-static block
+3. inside the constructor
+
+non-static block are majorly used for initializing non-static final variables hence it is also called as
+Instance Initialization Block (IIB)
+
+class
+--> variable
+--> constructor
+--> SB-->SIB
+--> NSB--> IIB
+--> methods
+	2 types
+	static method
+	non-static method
+
+we call static method using class name
+we call non-static method using ref var (object)
+
+---------------------------------------------------------------------------
+when do we declare a variable as non-static?
+if the variable is used to store private/individual information
+
+when do we declare a variable as static?
+if the variable is used to store common/public/shared information
+
+when do we declare a method as non-static?
+if method is accessing at least one non-static variable of the class
+
+when do we declare a method as static?
+if method is not accessing any non-static variable of the class
+
+summarize it
+by default we should create static method, if we need to access any non-static variable inside the method
+then only declare the method as non-static
+----------------------------------------------------------------------------------------
+in which are the places we can use this keyword?
+inside
+1. IIB
+2. constructor
+3. non-static method
+
+we cant use 'this' inside IIB & static method 
+
+----------------------------------------------------------------------------------------
+inside a class can we declare and initialize non-primitive variable?
+yes 
+
+inside a class we create object of other class?
+
+
+
+
+
+
+
+
+
+
+
+

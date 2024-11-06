@@ -1,0 +1,47 @@
+class A
+{
+    static void m1(){SOP("hi");}	//not access any variable
+}
+
+class A
+{
+	static int i=10;
+    	static void m1(){SOP(i);}	// access one static variable
+
+}
+
+
+class A
+{
+	static int i=10;
+	static int j=10;
+   	static void m1(){SOP(i);SOP(j);}// access multiple static variable
+
+}
+
+
+class A
+{
+	int i=10;
+   	void m1(){SOP(i)}	// access one non-static variable
+
+}
+
+class A
+{
+	int i=10;
+	int j=20;
+    	void m1(){SOP(i);SOP(j);}// access multiple non-static variable
+
+}
+
+class A
+{
+	int i=10;
+	static int j=20;
+    	void m1(){SOP(i);SOP(j);}// access both static and non-static variable
+
+}
+
+
+
