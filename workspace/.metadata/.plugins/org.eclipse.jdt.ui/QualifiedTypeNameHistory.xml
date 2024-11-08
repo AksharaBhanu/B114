@@ -2,6 +2,12 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="day23.Emp"/>
     <fullyQualifiedTypeName name="day26.Account"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="day28.Child"/>
+    <fullyQualifiedTypeName name="day29.Father"/>
+    <fullyQualifiedTypeName name="day29.Student"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="day28.Student"/>
+    <fullyQualifiedTypeName name="day27.Student"/>
+    <fullyQualifiedTypeName name="day28.Demo1"/>
 </qualifiedTypeNameHistroy>

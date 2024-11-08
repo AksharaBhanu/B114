@@ -81,8 +81,8 @@ we cant use 'this' inside IIB & static method
 inside a class can we declare and initialize non-primitive variable?
 yes 
 
-inside a class we create object of other class?
-
+inside a class can we create object of other class?
+yes
 
 
 

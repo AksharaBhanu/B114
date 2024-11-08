@@ -1,0 +1,64 @@
+class PrintStream
+{
+	void println(String s)
+	{
+		System.out.println("test");
+	}
+}
+class System
+{
+	public final static PrintStream out=new PrintStream();
+}
+public class Demo3 {
+	public static void main(String[] args) {
+		//System.out=null;
+
+		System.out.println("Bhanu"); 
+	}
+
+}
+//
+explain SOP?
+System is a built in class present in java.lang package
+out is a public static final ref var of type PrintStream
+println is a non static method of PrintStream class
+------------------------------------------------------------------------------
+class
+object
+constructor--> this. constructor overloading this() constructor chaining
+data member--> variable present inside the class
+scope: global & local
+data type: primitive & non-primitive
+permission: final & non-final
+copy--> static and non-static
+default value--> global	 non-final 	
+SIB & IIB
+methods--> static & non-static
+------------------------------------------------------------------------------
+this()-> call one constructor from another constructor of the same class
+super()--> call parent class constructor from child class constructor
+we cant use both this() and super() together in java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

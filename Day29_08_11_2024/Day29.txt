@@ -1,0 +1,72 @@
+Inheritance is the process by which objects of one class acquire the properties of objects of another class
+
+using the key extends /implements 
+
+parent class super class base class
+child class  sub class 	derived class
+
+
+this--> keyword to store address of current class object
+this.i--> accessing i variable present in current class object
+this()--> statement to call once constructor from another constructor same class
+
+super-->keyword to store address of parent class object
+super.i--> accessing i variable present in parent class object
+super()-->statement to call parent class constructor from child class constructor 
+
+when we must have UDC in child class?
+when we cant have default constructor in child class?
+
+
+if parent class does not contain 'no arg constructor' then in child class we cant have default constructor
+
+when it is mandatory to write super statement?
+if parent class has only parameterized constructor 
+
+
+in java w.r.t class it supports only
+single inheritance
+multi level inheritance
+Hierarchical inheritance
+
+it does not support
+multiple inheritance
+hybrid inheritance
+recursive inheritance
+-----------------------------------------------------------------------------------------------
+in java w.r.t interface it supports
+single inheritance
+multi level inheritance
+Hierarchical inheritance
+multiple inheritance
+hybrid inheritance
+
+it does not support
+recursive inheritance
+-------------------------------------------------------------------------------------------------
+what is inherited to child class from parent class?
+1. variables *
+2. methods *
+
+what is not inherited to child class from parent class?
+1. constructor 
+2. SIB
+3. IIB
+
+
+if any class is present in current package or in java.lang we need not import it
+ex: String  System
+
+we can access the class present in diff package using its FQCN (without import)
+
+if 2 class having same name present in diff package, how do u access it?
+we can import only one class
+for other class we should use FQCN
+
+
+
+
+
+
+
+
