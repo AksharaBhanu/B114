@@ -45,8 +45,11 @@ it does not support
 recursive inheritance
 -------------------------------------------------------------------------------------------------
 what is inherited to child class from parent class?
-1. variables *
+1. variables *    
 2. methods *
+
+*---> if it is private , it is not inherited
+----> if it is package private and child is in diff package then also it is not inherited
 
 what is not inherited to child class from parent class?
 1. constructor 

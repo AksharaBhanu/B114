@@ -1,0 +1,54 @@
+visibility modifier
+public
+protected
+package-private
+private
+
+we can use this visibility modifier for
+1. variable
+2. method
+3. constructor
+4. class/interface*  --> only public & package-private is allowed
+
+we cant use it for
+1. static block
+2. non-static block
+
+Note: 
+When we cant create child class for a given class?
+--->if the given class contains private constructor then we cant create child class for it
+--->
+
+
+to avoid inheritance and also avoid object creating ---> declare the constructor as private
+to avoid inheritance but should be able create object --->declare the class as final
+
+final class--> Bramhachaari class
+
+what is the diff b/w final class and final variable?
+final class--> we cant create child class
+final var--> we cant modify its value
+--------------------------------------------------------------------------------------------------------------------
+encapsulation--> API testing
+
+what is encapsulation?
+process of binding data member (variable) with member function(method) so that they behave as single unit 
+
+why encapsulation?
+--> hide /protect the data
+
+how do we achieve encapsulation?
+1. declare the variable as private
+2. create getters and setters method
+
+in encapsulation there are 3 steps
+1. declaration--> declare the variable as private
+2. initialization--> we use constructor to initialize var
+3. utilization---> we dev getters/setters 
+
+
+
+
+
+
+
