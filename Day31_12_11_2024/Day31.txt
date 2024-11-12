@@ -1,0 +1,120 @@
+polymorphism
+
+poly-many
+morphism--forms
+
+
+2 types of polymorphism
+1. compile time--> method overloading
+2. run time ---> method overriding 
+
+
+method overloading
+developing multiple methods with same name and diff signature
+
+signature means 
+number of arg
+data type of org
+order of the arg
+
+
+Note: in java we cant develop 2 methods with same name and same signature
+
+
+rule for method overloading
+1. method name: same
+2. signature: diff
+3. return type: any (same or diff)
+4. method type: any (static or non-static)
+5. visibility: any (public protected pp private)
+6. final: any
+7. inheritance: optional
+
+
+when the method is overloaded compiler will link method calling statement with
+method body based on signature--> method resolution
+method overloading is also called as compile time polymorphism
+
+explain SOP?
+System --> built in final java class present in java.lang package
+out--> public static final ref variable of type PrintStream
+println--> overloaded non-static method of PrintStream class
+
+
+def add(a,b):
+ print(a+b)
+
+
+add(10,20)
+add(10.45,45.78)
+
+
+------------------------------------
+as per java below methods are same--> delete one of the method
+public static void m1(int i,int j)
+{
+		System.out.println(i+j);
+}
+	
+public static void m2(int a,int b)
+{
+		System.out.println(a+b);
+}
+
+---------------------------------------------------------------------
+as per java below methods are diff-->do not overload them
+public static void m1(int i,int j)
+{
+		System.out.println(i+j);
+}
+	
+public static void m2(int a,int b)
+{
+		System.out.println(a/b);
+}
+---------------------------------------------------------------------
+as per java below methods are similar --> overload them
+public static void m1(int i,int j)
+{
+		System.out.println(i+j);
+}
+	
+public static void m2(float a,float b)
+{
+		System.out.println(a+b);
+}
+
+
+method overriding
+redefining the method in child class (same name same sig but diff implementation)
+
+1. method name: same
+2. signature: same
+3. return type: same
+4. method type: same
+5. visibility: same or higher 
+6. final: Not allowed
+7. inheritance: mandatory
+
+
+i want the method to be inherited but i dont want it to be overridden
+
+Diff b/w 		method overloading 			method overriding
+1. method name:		same					same			
+2. signature: 		diff					same
+3. return type: 	any (same or diff)			same
+4. method type: 	any (static or non-static)		same
+5. visibility: 		any (public protected pp private)	same or higher 
+6. final: 		any (final or non-final)		non-final only	
+7. inheritance: 	optional				mandatory
+
+
+
+in java every class directly or indirectly inherits from built in super most class called 'Object'
+
+Object class has many methods,
+one of them is toString method
+return address of the object in String format along with FQCN
+
+if the input is non-primitive data tyoe then internally println method calls toString method
+
