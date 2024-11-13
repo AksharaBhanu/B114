@@ -1,0 +1,99 @@
+what is final in java?
+final is a keyword can be used with class variable and method
+1. final class--> we cant create child class
+2. final variable-> no default value and we cant change the value
+3. final method--> inherited but we cant override
+
+super class in java ?
+Object class
+
+what are the imp methods of object class?
+toString--> returns address of the object in string format with FQCN
+equals---> compare 2 objects
+
+why System.out.println(obj1); will present address?
+if input is non-primitive type SOP internally calls toString method 
+toString method is present in Object class which returns the address
+
+how to make it to print object details instead of address?
+we should override toString method
+
+do not use == to compare 2 objects , it will compare address of both of the objects
+we should use .equals method to compare 2 objects - but we should implement it to compare required property of the 2 objects
+
+
+when we print user defined object it will print address
+when we print String object it will print value , why?
+
+in String toString method is overridden , it return value instead of address
+
+what is method overriding , give example?
+--> redefine the parent class method in child class is called as method overriding
+--> redefine means same header but diff body
+--> example--> toString method of String class, it returns String value instead of address of String object
+
+System.out.println(name.toString());
+
+Note: 
+println--> is an example for method overloading
+toString--> is an example for method overriding
+----------------------------------------------------------------------------------------------
+type casting--converting from one data type to another data type
+primitive data type
+	a. auto widening--> converting from smaller DT to bigger DT ex: byte to int
+	b. explicit narrowing-->converting from bigger  DT to smaller DT ex: int to byte
+
+
+non-primitive data type
+	a. auto upcasting--> converting from child object to parent type
+	b. explicit down-casting-->converting upcasted object back to child type  
+
+A class can be related to another class in 2 ways
+1. IS-A relation
+2 HAS-A relation ship
+
+for upcasting and down-casting there must be IS-A relation ship--> inheritance is required
+
+Up-casting
+converting from child object type to parent type is called as upcasting
+in java upcasting is automatic
+
+Ex: Animal a3=new Dog();
+
+
+what is not supported in java? 
+
+--> direct down casting--> we cant convert parent object to child object type
+
+what is supported?
+only upcasted object can be down casted back 
+
+We get ClassCastException
+
+
+method1-->present only in parent
+method2-->present in both parent & child
+method3-->present only in child
+
+after upcasting
+if we call method1 it will execute method from parent (as method present only in parent)
+if we call method2 it will execute method from child (this is present in both parent and child)
+if we call method3 we get error (it will become hidden method)
+
+
+After upcasting we cant call the method which is present only in child class -hidden method
+After upcasting if we call the method which is present in both parent and child- it will always execute child class method (overridden method)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
