@@ -1,0 +1,81 @@
+upcasting--> converting child class object to parent type
+after upcasting 
+1. if the method is present only in parent class-> we can call it
+2. if the method is present  in both parent and child-->child class method 
+3. if the method is present only in child class-->we cant call it (hidden method)
+
+How to call hidden method?
+we have down cast it
+
+
+--------------------------------------------------------------------------------------
+Diff b/w method overloading 			&  method overriding
+1. same method name with diff signature		1. redefine the method in child class
+2. inheritance: not mandatory			2. mandatory
+3. CTP						3. RTP
+4. method resolution: compiler			4. JVM
+5. method name: same				5. same
+6. signature: diff				6. same
+7. return type: any				7. same
+8. visibility: any				8. same or higher
+9. modifiers: any				9. same
+10. private method :yes				10. no
+11. package private method: yes			11. no- if child class is in diff package	
+12. final method: yes				12. no
+13. class is final: yes				13. no
+14. SOP						14. toString()
+--------------------------------------------------------------------------------------
+SDLC-->RC->Design-->code->test--> imp-->ma
+Design-Architect--> HLD LLD--> list out all the features (method) with out writing code /body--> abstraction
+
+Car driving--> C D S--> start/stop the engine  gear, clutch break horn....
+
+Smart TV --> home --TV Remote--> power on/off   vol + - Ch+ -
+
+ method contains
+1. method header--> declaration
+2. method body---> implementation
+
+
+if we create method with both header and body---> complete method --> concrete method---> static & non-static
+if we create method with only header (no body)---> incomplete method --> abstract method--> only non-static
+if we create method with only body (no header)---> anonymous method--> non-static
+
+
+interface:
+1. like class interface is a block which contains members 
+2. inside interface we can have variables and methods
+3. inside interface we can't have constructor SB & NSB
+4. all the variables are public static final
+5. all the methods are public and abstract
+6. we can create ref variable of an interface
+7. we cant create object of an interface
+
+Note: if the method is abstract --> overriding is mandatory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
