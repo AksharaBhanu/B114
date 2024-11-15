@@ -53,6 +53,8 @@ interface:
 
 Note: if the method is abstract --> overriding is mandatory
 
+1. inheritance
+2. same method name , signature, return, visibility
 
 
 

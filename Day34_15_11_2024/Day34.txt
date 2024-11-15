@@ -1,0 +1,61 @@
+Abstraction
+process hiding the implementation details from the user and showing only the essential features of an object.
+
+using interface
+1. we can use only public static final variable and public and abstract methods
+2. we cant use constructor SB & NSB
+3. we can create ref var of interface but we cant create object of an interface
+4. abstract method is always
+	a. public
+	b. non-static
+	c. non-final
+ along with abstract we cant use below keyword (Illegal combination)
+	a. protected 
+	b. private
+	c. static
+	d. final 
+5. for abstract method overriding is mandatory
+
+Do we get default constructor in interface?
+NO
+
+using which keyword we create child class for an interface?
+implements
+
+//show me a dog picture in google
+//show me a cat picture in google
+//show me an animal picture in google
+
+
+what is the sound made by dog----> Bow bow
+what is the sound made by cat-->Meow
+what is the sound made by Animal --> 
+
+open the browser
+enter the url
+close the browser
+
+inheritance is interface
+
+if both parent and child is interface we use extends keyword
+if both parent and child is class we use extends keyword
+if parent is interface and child is class we use implements keyword
+
+Note: if parent is a class child can not be interface , child must be a class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

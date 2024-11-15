@@ -15,4 +15,7 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="day32.Circle"/>
     <fullyQualifiedTypeName name="day32.Rectangle"/>
+    <fullyQualifiedTypeName name="day34.Triangle"/>
+    <fullyQualifiedTypeName name="day34.WebDriver"/>
+    <fullyQualifiedTypeName name="day34.Firefox"/>
 </qualifiedTypeNameHistroy>
