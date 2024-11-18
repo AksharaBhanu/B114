@@ -1,0 +1,35 @@
+interface
+1. variables--> only public static final
+2. methods-> only public and abstract
+3. constructor->no
+4. SB->no
+5. NSB-->No
+6. ref variable-> yes
+7. object->no
+8. abstract method makes overriding mandatory
+	
+illegal combination
+1. abstract private
+2. abstract final
+3. abstract static 
+
+
+abstract class
+a class which contains at least one abstract method
+1. abstract method may be inherited from parent interface
+2. abstract method may be declared inside the class
+
+
+if the class is declared as abstract we cant create its object
+inside abstract class
+1. all the methods can be abstract
+2. all the methods can be concrete
+3. some of the methods can be abstract and some of them can be concrete
+
+can we have concrete method in interface?
+yes from JDK 1.8 
+concrete method
+1. static public /private
+2. non-static  public /private
+
+Note: method cant be protected of package private, it can only be either public or private

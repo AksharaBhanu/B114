@@ -18,4 +18,5 @@
     <fullyQualifiedTypeName name="day34.Triangle"/>
     <fullyQualifiedTypeName name="day34.WebDriver"/>
     <fullyQualifiedTypeName name="day34.Firefox"/>
+    <fullyQualifiedTypeName name="java.nio.file.spi.FileSystemProvider"/>
 </qualifiedTypeNameHistroy>
