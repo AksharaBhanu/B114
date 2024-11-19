@@ -1,0 +1,42 @@
+Types of interface
+1. marker interface/Tagging Interface---> Serializable
+2. functional interface/ Single Abstract Method (SAM) interface-->Comparable Constable
+3. normal interface--> contains multiple abstract methods
+4. default interface--> interface which contains only default methods ( non-static concrete methods)
+5. static interface--> interface which contains only static methods
+6. hybrid interface--> contains both abstract and concrete methods
+
+
+to store primitive data type as object we have set of classes which are called
+as wrapper classes
+byte-->Byte
+short--> Short
+int--> Integer
+long-->Long
+float-->Float
+double-->Double
+char--> Character
+boolean--> Boolean
+
+all wrapper classes are present in java.lang package (no need to import)
+in all wrapper classes toString method is overridden
+all wrapper classes are final
+all wrapper classes implements Comparable interface
+We can create object of Wrapper class without using new keyword
+
+boxing-->converting from primitive to non-primitive
+unboxing-->converting from non-primitive to primitive
+
+both boxing & unboxing are automatic
+
+
+
+
+
+
+
+
+
+
+
+
