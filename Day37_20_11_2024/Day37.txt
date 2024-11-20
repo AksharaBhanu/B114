@@ -1,0 +1,42 @@
+to store multiple objects we can use array, but
+1. it is homogeneous
+2. size is fixed
+
+because of this reason we use collection
+
+1. Collection is an interface
+2. Collections is a class
+3. we have 3 child interface for Collection
+	a. List
+	b. Queue
+	c. Set
+List
+ a. ArrayList
+ b. LinkedList
+ c. Vector
+ d. stack
+
+methods
+1. add(obj)--> add object to the list at the end 
+2. size()--> to count the number of objects present in the list
+3. add(index,obj)
+4. set(index,obj)
+5. remove(index)
+6. remove(value)
+7. clear()
+8. isEmpty()
+9. addAll(collection)
+10. removeAll(collection)
+
+
+
+
+
+
+
+
+
+
+
+
+ 
