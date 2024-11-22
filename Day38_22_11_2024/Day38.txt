@@ -1,0 +1,18 @@
+methods
+1. add(obj)--> add object to the list at the end 
+2. size()--> to count the number of objects present in the list
+3. add(index,obj)
+4. set(index,obj)
+5. remove(index)
+6. remove(value)
+7. clear()
+8. isEmpty()
+9. addAll(collection)
+10. removeAll(collection)
+11. get(index)
+12. reversed()
+13. contains()
+14. sort
+
+sort method works only if the class implements Comparable /Comparator interface
+
