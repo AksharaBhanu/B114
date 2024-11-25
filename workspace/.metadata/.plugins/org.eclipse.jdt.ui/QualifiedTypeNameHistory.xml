@@ -12,7 +12,6 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="day30.Account"/>
     <fullyQualifiedTypeName name="day31.Father"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="day32.Circle"/>
     <fullyQualifiedTypeName name="day32.Rectangle"/>
     <fullyQualifiedTypeName name="day34.Triangle"/>
@@ -21,6 +20,13 @@
     <fullyQualifiedTypeName name="java.nio.file.spi.FileSystemProvider"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="day39.MySorting3"/>
+    <fullyQualifiedTypeName name="day39.MySorting4"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="day39.SortByNameReverse"/>
 </qualifiedTypeNameHistroy>

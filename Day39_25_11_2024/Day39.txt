@@ -1,0 +1,7 @@
+while creating collection of User Defined Data Type,
+1. use new keyword , create object and then add it to the collection
+2. override toString method in the User Defined class to print required info instead of address
+3. sort method works if the class implements Comparable/Comparator interface
+4. all Wrapper classes and String class implements Comparable interface
+5. to sort User Defined Class objects we should implements Comparable/Comparator interface
+
