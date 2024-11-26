@@ -1,0 +1,108 @@
+implementing Comparator 
+1. create a class which implements Comparator interface
+	ex:class SortByName implements Comparator<Student>
+2. override compare
+3. get required property  from 1st 2nd arg
+    Ex:
+	String name1=s1.name;
+	String name2=s2.name;
+
+4. return name1.compareTo(name2);
+
+5. call sort method
+	a. sort method of list--> send Comparator object as argument
+	b. sort method of Collections--> send list and Comparator object as argument
+
+
+implementing Comparable interface
+1.  add implements Comparable to the original class
+2. override compareTo method
+3. get required property  from 1st 2nd arg
+    Ex:
+	String name1=this.name;
+	String name2=s2.name;
+
+4. return name1.compareTo(name2);
+
+5. call sort method
+	a. sort method of list--> send null as argument
+	b. sort method of Collections--> send list as argument
+--------------------------------------------------------------------------------------------------------------
+Comparable						Comparator 	
+1. method is : compareTo				1. compare
+2. #arg--> 1						2. 2 arg
+3. we must me the author of the class			3. we need not be the author of the class	
+4. we implement the method inside the same class	4. we implement the method inside diff class
+5. called as default natural sorting order		5. No
+6. only one sorting option				6. multiple sorting
+7. list.sort(null);					7. list1.sort(new SortByName());			
+
+
+Vector 
+1. present from JDK 1.0
+2. it is also called as legacy class
+3. implements List interface
+4. Thread Safe -allow only one Thread at a time- data will be safe
+5. slow
+6. it has method with the word 'element'
+7. underlying Data Structure is 'Dynamic Array'
+8. it will allow multiple null
+9. it will allow duplicate objects
+10. it will support index
+11. preserve insertion order
+
+
+Stack
+1. present from JDK 1.0
+2. it is also called as legacy class
+3. extends Vector class
+4. Thread Safe -allow only one Thread at a time- data will be safe
+5. slow
+6. it has method with the word 'element'
+7. underlying Data Structure is 'Dynamic Array'
+8. it will allow multiple null
+9. it will allow duplicate objects
+10. it will support index
+11. preserve insertion order
+
+ArrayList
+1. present from JDK 1.2
+2. it is NOT legacy class
+3. implements List interface
+4. Not a Thread Safe -allow multiple Thread at a time- data may not be safe
+5. fast
+6  underlying Data Structure is 'Dynamic Array'
+7. it will allow multiple null
+8. it will allow duplicate objects
+9. it will support index
+10. preserve insertion order
+
+LinkedList
+1. present from JDK 1.2
+2. it is NOT legacy class
+3. implements List and Deque interfaces
+4. Not a Thread Safe -allow multiple Thread at a time- data may not be safe
+5. fast
+6  underlying Data Structure is 'Double Linked List'
+7. it will allow multiple null
+8. it will allow duplicate objects
+9. it will support index
+10. preserve insertion order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
