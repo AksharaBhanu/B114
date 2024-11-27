@@ -1,0 +1,123 @@
+Queue
+First in First Out
+3 types
+1. LinkedList
+2. ArrayDeque
+3. PriorityQueue
+
+1. join the q--> offer
+2. check who is at the front--> peek
+3. get service and exit q--> poll
+
+LinkedList
+1. present from JDK 1.2
+2. it is NOT legacy class
+3. implements List and Deque interfaces
+4. Not a Thread Safe -allow multiple Thread at a time- data may not be safe
+5. fast
+6  underlying Data Structure is 'Double Linked List'
+7. it will allow multiple null
+8. it will allow duplicate objects
+9. it will support index
+10. preserve insertion order
+
+ArrayDeque
+1. present from JDK 1.6
+2. it is NOT legacy class
+3. implements Deque interfaces
+4. Not a Thread Safe -allow multiple Thread at a time- data may not be safe
+5. fast
+6  underlying Data Structure is 'Circular Array'
+7. it will NOT allow null
+8. it will allow duplicate objects
+9. it does NOT support index
+10. preserve insertion order
+
+PriorityQueue
+it will decide the priority using Comparable/Comparator 
+
+
+PriorityQueue
+1. present from JDK 1.5
+2. Not a legacy class
+3. implements Queue interface
+3. Not a Thread safe
+4. fast
+5. offer peek poll 
+6. underlying data structure is Binary Heap 
+7. it will not allow null
+8. it will preserve priority order
+9. it will allow duplicate objects
+10.will not supports index (we can use only for each)
+
+
+Set:
+Set will not allow duplicate (We dont get any error)
+Set will not support index ( we can use only for each and not for i)
+
+HashSet
+1. present from JDK 1.2
+2. Not a legacy class
+3. implements Set interface
+3. Not a Thread safe
+4. fast
+5. add addall remove clear size...
+6. underlying data structure is Hash Map
+7. it will  allow  only one null
+8. it will not preserve insertion order
+9. it will not allow duplicate objects
+10.will not supports index (we can use only for each)
+
+LinkedHashSet
+1. present from JDK 1.4
+2. Not a legacy class
+3. implements Set interface
+3. Not a Thread safe
+4. fast
+5. add addall remove clear size...
+6. underlying data structure is Hash Map + Double Linked List
+7. it will  allow  only one null
+8. it will preserve insertion order
+9. it will not allow duplicate objects
+10.will not supports index (we can use only for each)
+
+TreeSet
+1. present from JDK 1.2
+2. Not a legacy class
+3. implements Set interface
+3. Not a Thread safe
+4. fast
+5. add addall remove clear size...
+6. underlying data structure is Red Black Tree (binary tree)
+7. it will  NOT allow null
+8. it will preserve sorting order
+9. it will not allow duplicate objects
+10.will not supports index (we can use only for each)
+
+Map
+is also group of objects where value is stored under a key instead of index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
