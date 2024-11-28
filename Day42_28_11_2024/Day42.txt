@@ -1,0 +1,81 @@
+Map
+it is like collection , which is group of elements but values are stored under a key instead of index
+
+imp method:-
+put(key,value)
+get(key)--> value
+containsKey
+containsValue
+keyset
+size
+remove(key)
+clear()
+isEmpty()
+
+Note: key cant be duplicate
+
+
+HashTable
+1. key cant be null
+2. value cant be null
+3. it will not preserve insertion order
+4. present from JDK 1.0
+5. legacy class
+6. parent: Map
+7. Thread-safe
+8. slow
+9. underlying data structure is buckets
+
+HashMap
+1. key can be null
+2. value can be null
+3. it will not preserve insertion order
+4. present from JDK 1.2
+5. not a legacy class
+6. parent: Map
+7. Not a Thread-safe
+8. fast
+9. underlying data structure is balanced tree
+
+
+LinkedHashMap
+1. key can be null
+2. value can be null
+3. it will preserve insertion order
+4. present from JDK 1.2
+5. not a legacy class
+6. parent: Map
+7. Not a Thread-safe
+8. fast
+9. underlying data structure is hashtable+ double linked list
+
+TreeMap
+1. key CANT be null
+2. value can be null
+3. it will sorting insertion order of the key
+4. present from JDK 1.2
+5. not a legacy class
+6. parent: NavigableMap
+7. Not a Thread-safe
+8. fast
+9. underlying data structure is Red-Black Tree
+
+
+
+
+Home work:
+
+find out the number of duplicate items
+find out the number of unique items
+find the item which has max occurrence
+
+
+
+
+
+
+
+
+
+
+
