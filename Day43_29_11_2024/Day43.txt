@@ -1,0 +1,51 @@
+Exception:
+Unexpected event is called as exception
+
+When exception occurs , JVM will throw error msg and stops the execution
+
+To continue the execution we must handle the exception
+
+exception propagation--> when exception is generated and not handled , control will be transferred back to the caller along with error  
+
+
+stack trace--> printing details of exception propagation is called as stack trace
+
+Normal termination--> if the java code gets executed till the end of main method without any exception then it is called as Normal termination
+
+Abnormal termination--> if there is any exception and it is not handled then JVM will call Default Exception Handler - this DEH will print stack trace and terminate the JVM -this is called as Abnormal termination
+
+exception generated but not handled anywhere (not even in main method)
+
+Graceful termination-->  if there is any exception and it is handled
+
+Exception Types
+1.Checked Exception--> InterruptedException
+2.Unchecked Exception--> ArithmeticException
+
+
+
+
+list at least 5 Checked Exception
+list at least 5 Unchecked Exception
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
