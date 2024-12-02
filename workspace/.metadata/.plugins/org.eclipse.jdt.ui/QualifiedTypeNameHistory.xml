@@ -2,14 +2,12 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="day23.Emp"/>
     <fullyQualifiedTypeName name="day26.Account"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="day28.Child"/>
     <fullyQualifiedTypeName name="day29.Father"/>
     <fullyQualifiedTypeName name="day29.Student"/>
     <fullyQualifiedTypeName name="day28.Student"/>
     <fullyQualifiedTypeName name="day27.Student"/>
     <fullyQualifiedTypeName name="day28.Demo1"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="day30.Account"/>
     <fullyQualifiedTypeName name="day31.Father"/>
     <fullyQualifiedTypeName name="day32.Circle"/>
@@ -42,4 +40,10 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 </qualifiedTypeNameHistroy>

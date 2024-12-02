@@ -1,0 +1,67 @@
+throws--> keyword used to delegate the exception to the caller
+inform the caller that if exception occurs , this method will not handle it , you should handle it.
+--unchecked exception--it is not mandatory to write throws or try-catch
+
+
+Exception Type
+1. Checked Exception
+it is a type of exception where writing throws or try-catch is mandatory, compiler will NOT allow us to compile the code without
+ handling it.
+
+InterruptedException
+FileNotFoundException
+IOException
+
+2 Unchecked Exception:
+  it is a type of exception where writing throws or try-catch is not mandatory , compiler will allow us to compile the code without
+ handling it.
+ Ex: ArithmeticException,NullPointerException
+
+Which is super most class in Java?
+Object
+
+Which is super most class in Exception
+Throwable
+
+Note: Throwable has 2 child class --> Exception and Error
+
+
+UnChecked Exception?
+RunTimeException + its child classes AND Error + its child classes
+
+
+Checked Exception?
+Everything else 
+
+
+
+only try block--> NO
+only catch block--> NO
+
+try-catch--> yes
+
+try-catch-catch--> yes
+
+nested try-catch block--Yes
+
+
+Very IMP home work
+final finally finalize
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
