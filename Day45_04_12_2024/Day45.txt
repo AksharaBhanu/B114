@@ -1,0 +1,55 @@
+String 
+1. group of characters
+2. specified within double quotes
+3. it is a non-private data type
+4. it is Class
+5. it is present in java.lang package (we need not import it)
+6. it is final class (we cant create sub class)
+7. it implements Comparable interface -sorting
+8. toString method is overridden--> it returns value instead of address
+9. equals method is overridden
+10. 2 ways to create String object
+	String s1=new String("Bhanu");
+	String s2="Bhanu";
+11. to compare 2 Strings do not use == , use equals or equalsIgnoreCase
+
+
+important methods of String class
+1. equals
+2. equalsIgnoreCase
+3. startsWith
+4. endsWith
+5. contains
+6. compareTo
+7. toLowerCase
+8. toUpperCase
+9. concat
+10. trim
+11. strip
+12. stripLeading
+13. stripTrailing
+14. replace
+15. charAt
+16. substring
+17. split
+18. join
+19. length
+20. isEmpty
+
+Homework: 
+print the sum of the digits present in give string
+find the length of the String without using .length method
+convert given String into lowercase without using toLowerCase
+
+
+
+
+
+
+
+
+
+
+
+
+
