@@ -1,0 +1,22 @@
+String is immutable object
+immutable--> once created it can never be changed 
+
+String         StringBuffer		StringBuilder
+immutable	mutable			mutable
+ThreadSafe	ThreadSafe		Not-ThreadSafe
+slow		slow			fast
+JDK1.0		JDK1.0			JDK1.5
+Data is safe    Data is safe		data may not be safe
+read		write 			read
+
+
+write a code to check if given String is palindrome or not
+Mock interview
+Level 1: questions + ans    3
+Level 2: Q 4
+Level 3: random questions 10
+
+interface
+upcasting
+overloading overriding
+ArrayList HashSet
